@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_T0RFAId9Ee6SStgsrqWP9Q" name="Tickets_FA232">
+    <eAnnotations xmi:id="_T57oIId9Ee6SStgsrqWP9Q" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_T58PMId9Ee6SStgsrqWP9Q" source="codegen">
+        <details xmi:id="_T58PMYd9Ee6SStgsrqWP9Q" key="codegenDirectory" value="/Tickets_FA23/src"/>
+        <details xmi:id="_UJ6k4Id9Ee6SStgsrqWP9Q" key="AssociatedSourceCode" value="/Tickets_FA23/src/javaapplication1/Dao.java;3825052522/1;/Tickets_FA23/src/javaapplication1/Login.java;3808140010/1;/Tickets_FA23/src/javaapplication1/Tickets.java;1115663416/1;/Tickets_FA23/src/javaapplication1/ticketsJTable.java;2495243174/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_UBEx8Id9Ee6SStgsrqWP9Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_UBFZAId9Ee6SStgsrqWP9Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_UBFZAYd9Ee6SStgsrqWP9Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_UBFZAod9Ee6SStgsrqWP9Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_UBFZA4d9Ee6SStgsrqWP9Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_UBFZBId9Ee6SStgsrqWP9Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_UBFZBYd9Ee6SStgsrqWP9Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_UBFZBod9Ee6SStgsrqWP9Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_UBGAEId9Ee6SStgsrqWP9Q">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_UBJqcId9Ee6SStgsrqWP9Q" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_UBKRgId9Ee6SStgsrqWP9Q" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_UEddIId9Ee6SStgsrqWP9Q" name="BufferedReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UEfSUId9Ee6SStgsrqWP9Q" name="File"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UEf5YYd9Ee6SStgsrqWP9Q" name="FileReader"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_UBK4kId9Ee6SStgsrqWP9Q" name="sql">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_UEggcYd9Ee6SStgsrqWP9Q" name="Connection"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UEhHgYd9Ee6SStgsrqWP9Q" name="DriverManager"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_UEhukYd9Ee6SStgsrqWP9Q" name="PreparedStatement"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_UEiVoYd9Ee6SStgsrqWP9Q" name="ResultSet"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UEi8sYd9Ee6SStgsrqWP9Q" name="SQLException"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_UEkK0Id9Ee6SStgsrqWP9Q" name="Statement"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_UEy0UId9Ee6SStgsrqWP9Q" name="ResultSetMetaData"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_UBK4kYd9Ee6SStgsrqWP9Q" name="text">
+        <packagedElement xmi:type="uml:Class" xmi:id="_UEkx4Yd9Ee6SStgsrqWP9Q" name="SimpleDateFormat"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_UBLfoId9Ee6SStgsrqWP9Q" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_UElY8Yd9Ee6SStgsrqWP9Q" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UEmAAYd9Ee6SStgsrqWP9Q" name="Arrays"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_UEmAA4d9Ee6SStgsrqWP9Q" name="List"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UEzbYYd9Ee6SStgsrqWP9Q" name="Vector"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_UBZiEId9Ee6SStgsrqWP9Q" name="awt">
+        <packagedElement xmi:type="uml:Package" xmi:id="_UBZiEYd9Ee6SStgsrqWP9Q" name="event">
+          <packagedElement xmi:type="uml:Class" xmi:id="_UEpDUYd9Ee6SStgsrqWP9Q" name="ActionEvent"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_UEpqYId9Ee6SStgsrqWP9Q" name="ActionListener"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_UEtUwod9Ee6SStgsrqWP9Q" name="WindowAdapter"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_UEt70Yd9Ee6SStgsrqWP9Q" name="WindowEvent"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UEocQId9Ee6SStgsrqWP9Q" name="GridLayout"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UEtUwId9Ee6SStgsrqWP9Q" name="Color"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_UBVQoId9Ee6SStgsrqWP9Q" name="javaapplication1">
+      <packagedElement xmi:type="uml:Class" xmi:id="_UBoyoId9Ee6SStgsrqWP9Q" name="Dao">
+        <ownedAttribute xmi:id="_UFEhIId9Ee6SStgsrqWP9Q" name="connect" visibility="package" isStatic="true" type="_UEggcYd9Ee6SStgsrqWP9Q" association="_UFjCQId9Ee6SStgsrqWP9Q">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_UFEhIYd9Ee6SStgsrqWP9Q" value="null"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_UFFIMYd9Ee6SStgsrqWP9Q" name="statement" visibility="package" type="_UEkK0Id9Ee6SStgsrqWP9Q" association="_UFkQYYd9Ee6SStgsrqWP9Q">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_UFFvQId9Ee6SStgsrqWP9Q" value="null"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UFTKoId9Ee6SStgsrqWP9Q" name="getConnection" specification="_UBxVgId9Ee6SStgsrqWP9Q">
+          <ownedParameter xmi:id="_UFTKoYd9Ee6SStgsrqWP9Q" type="_UEggcYd9Ee6SStgsrqWP9Q" direction="return"/>
+          <language>java</language>
+          <body>// Setup the connection with the DB
+		try {
+			connect = DriverManager
+					.getConnection(&quot;jdbc:mysql://www.papademas.net:3307/tickets?autoReconnect=true&amp;useSSL=false&quot;
+							+ &quot;&amp;user=fp411&amp;password=411&quot;);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return connect;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UFYqMId9Ee6SStgsrqWP9Q" name="createTables" specification="_UBzxwId9Ee6SStgsrqWP9Q">
+          <language>java</language>
+          <body>// variables for SQL Query table creations
+		final String createTicketsTable = &quot;CREATE TABLE n_guadTickets(ticket_id INT AUTO_INCREMENT PRIMARY KEY, ticket_issuer VARCHAR(30), ticket_description VARCHAR(200), start_date DATETIME, end_date DATETIME, status VARCHAR(5))&quot;;
+		final String createUsersTable = &quot;CREATE TABLE nguad_users(uid INT AUTO_INCREMENT PRIMARY KEY, uname VARCHAR(30), upass VARCHAR(30), admin int)&quot;;
+
+		try {
+			// execute queries to create tables
+
+			statement = getConnection().createStatement();
+
+			statement.executeUpdate(createTicketsTable);
+			statement.executeUpdate(createUsersTable);
+			System.out.println(&quot;Created tables in given database...&quot;);
+
+			// end create table
+			// close connection/statement object
+			statement.close();
+			connect.close();
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+		// add users to user table
+		addUsers();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UFYqMYd9Ee6SStgsrqWP9Q" name="addUsers" specification="_UB0_4Id9Ee6SStgsrqWP9Q">
+          <language>java</language>
+          <body>// add list of users from userlist.csv file to users table
+
+		// variables for SQL Query inserts
+		String sql;
+
+		Statement statement;
+		BufferedReader br;
+		List&lt;List&lt;String>> array = new ArrayList&lt;>(); // list to hold (rows &amp; cols)
+
+		// read data from file
+		try {
+			br = new BufferedReader(new FileReader(new File(&quot;./userlist.csv&quot;)));
+
+			String line;
+			while ((line = br.readLine()) != null) {
+				array.add(Arrays.asList(line.split(&quot;,&quot;)));
+			}
+		} catch (Exception e) {
+			System.out.println(&quot;There was a problem loading the file&quot;);
+		}
+
+		try {
+
+			// Setup the connection with the DB
+
+			statement = getConnection().createStatement();
+
+			// create loop to grab each array index containing a list of values
+			// and PASS (insert) that data into your User table
+			for (List&lt;String> rowData : array) {
+
+				sql = &quot;insert into nguad_users(uname,upass,admin) &quot; + &quot;values('&quot; + rowData.get(0) + &quot;',&quot; + &quot; '&quot;
+						+ rowData.get(1) + &quot;','&quot; + rowData.get(2) + &quot;');&quot;;
+				statement.executeUpdate(sql);
+			}
+			System.out.println(&quot;Inserts completed in the given database...&quot;);
+
+			// close statement object
+			statement.close();
+
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UFZRQId9Ee6SStgsrqWP9Q" name="readRecords" specification="_UB1m8Id9Ee6SStgsrqWP9Q">
+          <ownedParameter xmi:id="_UFZRQYd9Ee6SStgsrqWP9Q" type="_UEiVoYd9Ee6SStgsrqWP9Q" direction="return"/>
+          <language>java</language>
+          <body>ResultSet results = null;
+		try {
+			statement = connect.createStatement();
+			results = statement.executeQuery(&quot;SELECT * FROM n_guadTickets&quot;);
+			//connect.close();
+		} catch (SQLException e1) {
+			e1.printStackTrace();
+		}
+		return results;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UFZRQod9Ee6SStgsrqWP9Q" name="updateRecords" specification="_UB21EId9Ee6SStgsrqWP9Q">
+          <ownedParameter xmi:id="_UFZRQ4d9Ee6SStgsrqWP9Q" name="ticketId">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_UFZRRId9Ee6SStgsrqWP9Q" name="ticketDesc">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_UFZRRYd9Ee6SStgsrqWP9Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>int row = 0;
+		
+		try {
+			// execute queries to update table
+			
+			System.out.println(&quot;Connecting to a selected database for updates...&quot;);
+			statement = getConnection().createStatement();
+			System.out.println(&quot;Connected to database successfully...&quot;);
+
+			String sql = &quot;UPDATE n_guadTickets SET ticket_description = '&quot; + ticketDesc + &quot;' WHERE ticket_id = &quot; + ticketId;
+			
+			row = statement.executeUpdate(sql);
+		
+			// end update table
+			// close connection/statement object
+			statement.close();
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+		return row;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UFZ4UId9Ee6SStgsrqWP9Q" name="deleteRecords" specification="_UB4DMId9Ee6SStgsrqWP9Q">
+          <ownedParameter xmi:id="_UFZ4UYd9Ee6SStgsrqWP9Q" name="ticketId">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_UFZ4Uod9Ee6SStgsrqWP9Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>int row = 0;
+		try {
+			// execute queries to delete records
+			
+			System.out.println(&quot;Connecting to a selected database for deletes...&quot;);
+			statement = getConnection().createStatement();
+			System.out.println(&quot;Connected to database successfully...&quot;);
+
+			String sql = &quot;DELETE FROM n_guadTickets WHERE ticket_id = &quot; + ticketId;
+
+			row = statement.executeUpdate(sql);
+			
+			
+			// close connection/statement object
+			statement.close();
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+		return row;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UFafYId9Ee6SStgsrqWP9Q" name="insertRecords" specification="_UB5RUId9Ee6SStgsrqWP9Q">
+          <ownedParameter xmi:id="_UFafYYd9Ee6SStgsrqWP9Q" name="ticketName">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_UFafYod9Ee6SStgsrqWP9Q" name="ticketDesc">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>PreparedStatement ps = (PreparedStatement) getConnection().prepareStatement(&quot;Insert into n_guadTickets(ticket_issuer, ticket_description, start_date, status) values(?,?,?,?)&quot;);
+		java.sql.Timestamp date = new java.sql.Timestamp(new java.util.Date().getTime());
+		ps.setString(1, ticketName);
+		ps.setString(2, ticketDesc);
+		ps.setTimestamp(3, date);
+		ps.setString(4, &quot;open&quot;);
+		ps.executeUpdate();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UFafY4d9Ee6SStgsrqWP9Q" name="closeTicket" specification="_UB6fcId9Ee6SStgsrqWP9Q">
+          <ownedParameter xmi:id="_UFafZId9Ee6SStgsrqWP9Q" name="ticketId">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>PreparedStatement ps = (PreparedStatement) getConnection().prepareStatement(&quot;UPDATE n_guadTickets SET end_date = ?, status = ? WHERE ticket_id = ?&quot;);
+		java.sql.Timestamp date = new java.sql.Timestamp(new java.util.Date().getTime());
+		ps.setTimestamp(1, date);
+		ps.setString(2, &quot;close&quot;);
+		ps.setInt(3, ticketId);
+		ps.executeUpdate();
+		
+		System.out.println(&quot;&quot; + date);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UFbGcId9Ee6SStgsrqWP9Q" name="viewTicket2" specification="_UB7GgId9Ee6SStgsrqWP9Q">
+          <ownedParameter xmi:id="_UFbGcYd9Ee6SStgsrqWP9Q" name="ticketName">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_UFbGcod9Ee6SStgsrqWP9Q" type="_UEiVoYd9Ee6SStgsrqWP9Q" direction="return"/>
+          <language>java</language>
+          <body>ResultSet results = null;
+		try {
+			statement = connect.createStatement();
+			results = statement.executeQuery(&quot;SELECT * FROM n_guadTickets WHERE ticket_issuer = '&quot; + ticketName + &quot;'&quot; );
+			
+			
+			//connect.close();
+		} catch (SQLException e1) {
+			e1.printStackTrace();
+		}
+		return results;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UFbGc4d9Ee6SStgsrqWP9Q" name="viewTicket3" specification="_UB7tkId9Ee6SStgsrqWP9Q">
+          <ownedParameter xmi:id="_UFbGdId9Ee6SStgsrqWP9Q" name="ticketId">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_UFbGdYd9Ee6SStgsrqWP9Q" type="_UEiVoYd9Ee6SStgsrqWP9Q" direction="return"/>
+          <language>java</language>
+          <body>ResultSet results = null;
+		try {
+			statement = connect.createStatement();
+			results = statement.executeQuery(&quot;SELECT * FROM n_guadTickets WHERE ticket_id = '&quot; + ticketId + &quot;'&quot; );
+			
+			
+			//connect.close();
+		} catch (SQLException e1) {
+			e1.printStackTrace();
+		}
+		return results;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_UBuSMId9Ee6SStgsrqWP9Q" name="Dao">
+          <eAnnotations xmi:id="_UBu5QId9Ee6SStgsrqWP9Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_UBu5QYd9Ee6SStgsrqWP9Q" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_UBwucId9Ee6SStgsrqWP9Q" type="_UBoyoId9Ee6SStgsrqWP9Q" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_UBxVgId9Ee6SStgsrqWP9Q" name="getConnection" method="_UFTKoId9Ee6SStgsrqWP9Q">
+          <ownedParameter xmi:id="_UE13oId9Ee6SStgsrqWP9Q" type="_UEggcYd9Ee6SStgsrqWP9Q" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_UBzxwId9Ee6SStgsrqWP9Q" name="createTables" method="_UFYqMId9Ee6SStgsrqWP9Q"/>
+        <ownedOperation xmi:id="_UB0_4Id9Ee6SStgsrqWP9Q" name="addUsers" method="_UFYqMYd9Ee6SStgsrqWP9Q"/>
+        <ownedOperation xmi:id="_UB1m8Id9Ee6SStgsrqWP9Q" name="readRecords" method="_UFZRQId9Ee6SStgsrqWP9Q">
+          <ownedParameter xmi:id="_UE13oYd9Ee6SStgsrqWP9Q" type="_UEiVoYd9Ee6SStgsrqWP9Q" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_UB21EId9Ee6SStgsrqWP9Q" name="updateRecords" method="_UFZRQod9Ee6SStgsrqWP9Q">
+          <ownedParameter xmi:id="_UB21EYd9Ee6SStgsrqWP9Q" name="ticketId">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_UB3cIId9Ee6SStgsrqWP9Q" name="ticketDesc">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_UB3cIYd9Ee6SStgsrqWP9Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_UB4DMId9Ee6SStgsrqWP9Q" name="deleteRecords" method="_UFZ4UId9Ee6SStgsrqWP9Q">
+          <ownedParameter xmi:id="_UB4DMYd9Ee6SStgsrqWP9Q" name="ticketId">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_UB4qQId9Ee6SStgsrqWP9Q" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_UB5RUId9Ee6SStgsrqWP9Q" name="insertRecords" method="_UFafYId9Ee6SStgsrqWP9Q" raisedException="_UEi8sYd9Ee6SStgsrqWP9Q">
+          <ownedParameter xmi:id="_UB5RUYd9Ee6SStgsrqWP9Q" name="ticketName">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_UB54YId9Ee6SStgsrqWP9Q" name="ticketDesc">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_UB6fcId9Ee6SStgsrqWP9Q" name="closeTicket" method="_UFafY4d9Ee6SStgsrqWP9Q" raisedException="_UEi8sYd9Ee6SStgsrqWP9Q">
+          <ownedParameter xmi:id="_UB6fcYd9Ee6SStgsrqWP9Q" name="ticketId">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_UB7GgId9Ee6SStgsrqWP9Q" name="viewTicket2" method="_UFbGcId9Ee6SStgsrqWP9Q">
+          <ownedParameter xmi:id="_UB7GgYd9Ee6SStgsrqWP9Q" name="ticketName">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_UE3FwId9Ee6SStgsrqWP9Q" type="_UEiVoYd9Ee6SStgsrqWP9Q" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_UB7tkId9Ee6SStgsrqWP9Q" name="viewTicket3" method="_UFbGc4d9Ee6SStgsrqWP9Q">
+          <ownedParameter xmi:id="_UB7tkYd9Ee6SStgsrqWP9Q" name="ticketId">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_UE3FwYd9Ee6SStgsrqWP9Q" type="_UEiVoYd9Ee6SStgsrqWP9Q" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_UCB0MId9Ee6SStgsrqWP9Q" name="Login">
+        <generalization xmi:id="_UE3s0Id9Ee6SStgsrqWP9Q" general="_UEq4gId9Ee6SStgsrqWP9Q"/>
+        <ownedAttribute xmi:id="_UFGWUId9Ee6SStgsrqWP9Q" name="conn" visibility="package" type="_UBoyoId9Ee6SStgsrqWP9Q" association="_UFk3cYd9Ee6SStgsrqWP9Q"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UFbtgId9Ee6SStgsrqWP9Q" name="Login" specification="_UCEQcId9Ee6SStgsrqWP9Q">
+          <ownedParameter xmi:id="_UFbtgYd9Ee6SStgsrqWP9Q" type="_UCB0MId9Ee6SStgsrqWP9Q" direction="return"/>
+          <language>java</language>
+          <body>super(&quot;IIT HELP DESK LOGIN&quot;);
+		conn = new Dao();
+		conn.createTables();
+		
+		
+		setSize(400, 210);
+		setLayout(new GridLayout(4, 2));
+		setLocationRelativeTo(null); // centers window
+
+		// SET UP CONTROLS
+		JLabel lblUsername = new JLabel(&quot;Username&quot;, JLabel.LEFT);
+		JLabel lblPassword = new JLabel(&quot;Password&quot;, JLabel.LEFT);
+		JLabel lblStatus = new JLabel(&quot; &quot;, JLabel.CENTER);
+		// JLabel lblSpacer = new JLabel(&quot; &quot;, JLabel.CENTER);
+
+		JTextField txtUname = new JTextField(10);
+
+		JPasswordField txtPassword = new JPasswordField();
+		JButton btn = new JButton(&quot;Submit&quot;);
+		JButton btnExit = new JButton(&quot;Exit&quot;);
+
+		// constraints
+
+		lblStatus.setToolTipText(&quot;Contact help desk to unlock password&quot;);
+		lblUsername.setHorizontalAlignment(JLabel.CENTER);
+		lblPassword.setHorizontalAlignment(JLabel.CENTER);
+ 
+		// ADD OBJECTS TO FRAME
+		add(lblUsername);  // 1st row filler
+		add(txtUname);
+		add(lblPassword);  // 2nd row
+		add(txtPassword);
+		add(btn);          // 3rd row
+		add(btnExit);
+		add(lblStatus);    // 4th row
+
+		btn.addActionListener(new ActionListener() {
+			int count = 0; // count agent
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				boolean admin = false;
+				count = count + 1;
+				// verify credentials of user (MAKE SURE TO CHANGE TO YOUR TABLE NAME BELOW)
+
+				String query = &quot;SELECT * FROM jpapa_users WHERE uname = ? and upass = ?;&quot;;
+				try (PreparedStatement stmt = conn.getConnection().prepareStatement(query)) {
+					stmt.setString(1, txtUname.getText());
+					stmt.setString(2, txtPassword.getText());
+					ResultSet rs = stmt.executeQuery();
+					if (rs.next()) {
+						admin = rs.getBoolean(&quot;admin&quot;); // get table column value
+						new Tickets(admin); //open Tickets file / GUI interface
+						setVisible(false); // HIDE THE FRAME
+						dispose(); // CLOSE OUT THE WINDOW
+					} else
+						lblStatus.setText(&quot;Try again! &quot; + (3 - count) + &quot; / 3 attempt(s) left&quot;);
+				} catch (SQLException ex) {
+					ex.printStackTrace();
+				}
+ 			 
+			}
+		});
+		btnExit.addActionListener(e -> System.exit(0));
+
+		setVisible(true); // SHOW THE FRAME
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UFbtgod9Ee6SStgsrqWP9Q" name="main" specification="_UCFekYd9Ee6SStgsrqWP9Q">
+          <ownedParameter xmi:id="_UFbtg4d9Ee6SStgsrqWP9Q" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UFbthId9Ee6SStgsrqWP9Q" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>new Login();
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_UCEQcId9Ee6SStgsrqWP9Q" name="Login" method="_UFbtgId9Ee6SStgsrqWP9Q">
+          <eAnnotations xmi:id="_UCEQcYd9Ee6SStgsrqWP9Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_UCE3gId9Ee6SStgsrqWP9Q" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_UCE3gYd9Ee6SStgsrqWP9Q" type="_UCB0MId9Ee6SStgsrqWP9Q" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_UCFekYd9Ee6SStgsrqWP9Q" name="main" isStatic="true" method="_UFbtgod9Ee6SStgsrqWP9Q">
+          <ownedParameter xmi:id="_UCFekod9Ee6SStgsrqWP9Q" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UCGFoYd9Ee6SStgsrqWP9Q" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_UCKXEId9Ee6SStgsrqWP9Q" name="Tickets">
+        <generalization xmi:id="_UFBd0od9Ee6SStgsrqWP9Q" general="_UEq4gId9Ee6SStgsrqWP9Q"/>
+        <ownedAttribute xmi:id="_UFG9YId9Ee6SStgsrqWP9Q" name="dao" visibility="package" type="_UBoyoId9Ee6SStgsrqWP9Q" association="_UFk3dId9Ee6SStgsrqWP9Q">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_UFG9YYd9Ee6SStgsrqWP9Q" value="new Dao()"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_UFG9Yod9Ee6SStgsrqWP9Q" name="chkIfAdmin" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_UFHkcId9Ee6SStgsrqWP9Q" value="null"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_UFHkcYd9Ee6SStgsrqWP9Q" name="mnuFile" visibility="private" type="_UEui4Yd9Ee6SStgsrqWP9Q" association="_UFlegYd9Ee6SStgsrqWP9Q">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_UFHkcod9Ee6SStgsrqWP9Q" value="new JMenu(&quot;File&quot;)"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_UFILgId9Ee6SStgsrqWP9Q" name="mnuAdmin" visibility="private" type="_UEui4Yd9Ee6SStgsrqWP9Q" association="_UFmFkYd9Ee6SStgsrqWP9Q">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_UFILgYd9Ee6SStgsrqWP9Q" value="new JMenu(&quot;Admin&quot;)"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_UFILgod9Ee6SStgsrqWP9Q" name="mnuTickets" visibility="private" type="_UEui4Yd9Ee6SStgsrqWP9Q" association="_UFmsoId9Ee6SStgsrqWP9Q">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_UFILg4d9Ee6SStgsrqWP9Q" value="new JMenu(&quot;Tickets&quot;)"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_UFIykId9Ee6SStgsrqWP9Q" name="mnuItemExit" visibility="package" type="_UEvJ8Yd9Ee6SStgsrqWP9Q" association="_UFmso4d9Ee6SStgsrqWP9Q"/>
+        <ownedAttribute xmi:id="_UFIykYd9Ee6SStgsrqWP9Q" name="mnuItemUpdate" visibility="package" type="_UEvJ8Yd9Ee6SStgsrqWP9Q" association="_UFnTsYd9Ee6SStgsrqWP9Q"/>
+        <ownedAttribute xmi:id="_UFIykod9Ee6SStgsrqWP9Q" name="mnuItemDelete" visibility="package" type="_UEvJ8Yd9Ee6SStgsrqWP9Q" association="_UFoh0Id9Ee6SStgsrqWP9Q"/>
+        <ownedAttribute xmi:id="_UFIyk4d9Ee6SStgsrqWP9Q" name="mnuItemOpenTicket" visibility="package" type="_UEvJ8Yd9Ee6SStgsrqWP9Q" association="_UFoh04d9Ee6SStgsrqWP9Q"/>
+        <ownedAttribute xmi:id="_UFJZoId9Ee6SStgsrqWP9Q" name="mnuItemViewTicket" visibility="package" type="_UEvJ8Yd9Ee6SStgsrqWP9Q" association="_UFpI4Yd9Ee6SStgsrqWP9Q"/>
+        <ownedAttribute xmi:id="_UFJZoYd9Ee6SStgsrqWP9Q" name="mnuItemCloseTicket" visibility="package" type="_UEvJ8Yd9Ee6SStgsrqWP9Q" association="_UFpv8Yd9Ee6SStgsrqWP9Q"/>
+        <ownedAttribute xmi:id="_UFJZood9Ee6SStgsrqWP9Q" name="mnuItemView2Ticket" visibility="package" type="_UEvJ8Yd9Ee6SStgsrqWP9Q" association="_UFqXAYd9Ee6SStgsrqWP9Q"/>
+        <ownedAttribute xmi:id="_UFKAsId9Ee6SStgsrqWP9Q" name="mnuItemView3Ticket" visibility="package" type="_UEvJ8Yd9Ee6SStgsrqWP9Q" association="_UFqXBId9Ee6SStgsrqWP9Q"/>
+        <interfaceRealization xmi:id="_UE_BkId9Ee6SStgsrqWP9Q" client="_UCKXEId9Ee6SStgsrqWP9Q" supplier="_UEpqYId9Ee6SStgsrqWP9Q" contract="_UEpqYId9Ee6SStgsrqWP9Q"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UFcUkId9Ee6SStgsrqWP9Q" name="Tickets" specification="_UCNaYId9Ee6SStgsrqWP9Q">
+          <ownedParameter xmi:id="_UFcUkYd9Ee6SStgsrqWP9Q" name="isAdmin">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_UFcUkod9Ee6SStgsrqWP9Q" type="_UCKXEId9Ee6SStgsrqWP9Q" direction="return"/>
+          <language>java</language>
+          <body>chkIfAdmin = isAdmin;
+		createMenu();
+		prepareGUI();
+
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UFcUk4d9Ee6SStgsrqWP9Q" name="createMenu" specification="_UCOogYd9Ee6SStgsrqWP9Q">
+          <language>java</language>
+          <body>/* Initialize sub menu items **************************************/
+
+		// initialize sub menu item for File main menu
+		mnuItemExit = new JMenuItem(&quot;Exit&quot;);
+		// add to File main menu item
+		mnuFile.add(mnuItemExit);
+
+		// initialize first sub menu items for Admin main menu
+		mnuItemUpdate = new JMenuItem(&quot;Update Ticket&quot;);
+		// add to Admin main menu item
+		mnuAdmin.add(mnuItemUpdate);
+
+		// initialize second sub menu items for Admin main menu
+		mnuItemDelete = new JMenuItem(&quot;Delete Ticket&quot;);
+		// add to Admin main menu item
+		mnuAdmin.add(mnuItemDelete);
+
+		// initialize first sub menu item for Tickets main menu
+		mnuItemOpenTicket = new JMenuItem(&quot;Open Ticket&quot;);
+		// add to Ticket Main menu item
+		mnuTickets.add(mnuItemOpenTicket);
+
+		// initialize second sub menu item for Admin main menu
+		mnuItemViewTicket = new JMenuItem(&quot;View Ticket&quot;);
+		// add to Ticket Main menu item
+		mnuAdmin.add(mnuItemViewTicket);
+
+		
+		
+
+		
+		// initialize any more desired sub menu items below
+		// closes ticket by id and updates end time 
+		mnuItemCloseTicket = new JMenuItem(&quot;Close Ticket&quot;);
+		// add to Ticket Main menu item
+		mnuAdmin.add(mnuItemCloseTicket);
+		
+		// initialize second sub menu item for Tickets main menu
+		mnuItemView2Ticket = new JMenuItem(&quot;View Ticket by Name&quot;);
+		// add to Ticket Main menu item
+		mnuTickets.add(mnuItemView2Ticket);
+		
+		// initialize second sub menu item for Tickets main menu
+		mnuItemView3Ticket = new JMenuItem(&quot;View Ticket by ID&quot;);
+		// add to Ticket Main menu item
+		mnuTickets.add(mnuItemView3Ticket);
+	
+
+		/* Add action listeners for each desired menu item *************/
+		mnuItemExit.addActionListener(this);
+		mnuItemUpdate.addActionListener(this);
+		mnuItemDelete.addActionListener(this);
+		mnuItemOpenTicket.addActionListener(this);
+		mnuItemViewTicket.addActionListener(this);
+		
+		// add any more desired action listeners below
+		mnuItemCloseTicket.addActionListener(this);
+		mnuItemView2Ticket.addActionListener(this);
+		mnuItemView3Ticket.addActionListener(this);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UFcUlId9Ee6SStgsrqWP9Q" name="prepareGUI" specification="_UCOog4d9Ee6SStgsrqWP9Q">
+          <language>java</language>
+          <body>// create JMenu bar
+		JMenuBar bar = new JMenuBar();
+		bar.add(mnuFile); // add main menu items in order, to JMenuBar
+		
+		/* Another way to remove admin for regular users
+		 * if (chkIfAdmin == true) {
+			bar.add(mnuAdmin);
+			}
+		*/
+	
+		bar.add(mnuAdmin); 
+		
+		if (chkIfAdmin == true) {
+			mnuAdmin.setVisible(true);
+		} else {
+			mnuAdmin.setVisible(false);
+		}	
+		
+		bar.add(mnuTickets);
+		// add menu bar componenadmits to frame
+		setJMenuBar(bar);
+
+		addWindowListener(new WindowAdapter() {
+			// define a window close operation
+			public void windowClosing(WindowEvent wE) {
+				System.exit(0);
+			}
+		});
+		// set frame options
+		setSize(400, 400);
+		getContentPane().setBackground(Color.LIGHT_GRAY);
+		setLocationRelativeTo(null);
+		setVisible(true);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UFc7oId9Ee6SStgsrqWP9Q" name="actionPerformed" specification="_UFA2wId9Ee6SStgsrqWP9Q">
+          <ownedParameter xmi:id="_UFc7oYd9Ee6SStgsrqWP9Q" name="e" type="_UEpDUYd9Ee6SStgsrqWP9Q"/>
+          <language>java</language>
+          <body>if (e.getSource() == mnuItemExit) {
+			System.exit(0);
+		} 
+		
+		/*else if (e.getSource() == mnuItemOpenTicket) {
+			// get ticket information
+			String ticketName = JOptionPane.showInputDialog(null, &quot;Enter your name&quot;);
+			String ticketDesc = JOptionPane.showInputDialog(null, &quot;Enter a ticket description&quot;);
+
+			
+			
+			// insert ticket information to database
+
+			int id = dao.insertRecords(ticketName, ticketDesc);
+
+			// display results if successful or not to console / dialog box
+			if (id != 0) {
+				System.out.println(&quot;Ticket ID : &quot; + id + &quot; created successfully!!!&quot;);
+				JOptionPane.showMessageDialog(null, &quot;Ticket id: &quot; + id + &quot; created&quot;);
+			} else
+				System.out.println(&quot;Ticket cannot be created!!!&quot;);
+				
+			
+		}*/
+
+		else if (e.getSource() == mnuItemViewTicket) {
+
+			// retrieve all tickets details for viewing in JTable
+			try {
+
+				// Use JTable built in functionality to build a table model and
+				// display the table model off your result set!!!
+				JTable jt = new JTable(ticketsJTable.buildTableModel(dao.readRecords()));
+				jt.setBounds(30, 40, 200, 400);
+				JScrollPane sp = new JScrollPane(jt);
+				add(sp);
+				setVisible(true); // refreshes or repaints frame on screen
+
+			} catch (SQLException e1) {
+				e1.printStackTrace();
+			}
+		}
+		
+		else if (e.getSource() == mnuItemUpdate) {
+			
+			// get update information
+			int ticketId =  Integer.parseInt(JOptionPane.showInputDialog(null, &quot;Enter the ticket id you want to update&quot;));
+			String ticketDesc = JOptionPane.showInputDialog(null, &quot;Enter a ticket description&quot;);
+
+
+			int row = dao.updateRecords(ticketId, ticketDesc);
+			
+			if (row != 0) {
+				System.out.println(&quot;Updated row successfully&quot;);
+				JOptionPane.showMessageDialog(null, &quot;Updated row successfully&quot;);
+			}else {
+				JOptionPane.showMessageDialog(null, &quot;Please try again&quot;);
+			}
+			
+		}
+		
+		else if (e.getSource() == mnuItemDelete) {
+
+			int row = 0;
+			
+			// get update information
+			int ticketId =  Integer.parseInt(JOptionPane.showInputDialog(null, &quot;Enter the ticket id for the row you want to delete&quot;));
+			
+			String answer = JOptionPane.showInputDialog(null, &quot;Is it okay to delete this record from row &quot; + ticketId + &quot;?&quot;);
+
+			if (answer.equals(&quot;yes&quot;)) {
+				row = dao.deleteRecords(ticketId);
+			}
+			
+			if (row != 0) {
+				JOptionPane.showMessageDialog(null, &quot;Deleted row successfully&quot;);
+			}else {
+				JOptionPane.showMessageDialog(null, &quot;Please try again&quot;);
+			}
+			
+		}
+		
+		else if (e.getSource() == mnuItemOpenTicket) {
+			// get ticket information
+			String ticketName = JOptionPane.showInputDialog(null, &quot;Enter your name&quot;);
+			String ticketDesc = JOptionPane.showInputDialog(null, &quot;Enter a ticket description&quot;);
+
+			
+			
+			// insert ticket information to database
+
+			try {
+				dao.insertRecords(ticketName, ticketDesc);
+				JOptionPane.showMessageDialog(null, &quot;Opened ticket successfully&quot;);
+			} catch (SQLException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}	
+		}
+		
+		/*
+		 * continue implementing any other desired sub menu items (like for update and
+		 * delete sub menus for example) with similar syntax &amp; logic as shown above
+		 */
+		
+		 else if (e.getSource() == mnuItemCloseTicket) {
+			 int ticketId =  Integer.parseInt(JOptionPane.showInputDialog(null, &quot;Enter the ticket id for the ticket you want to close&quot;));
+			 
+			 // insert ticket information to database
+			 
+			 try {
+				 dao.closeTicket(ticketId);
+				 JOptionPane.showMessageDialog(null, &quot;Closed ticket successfully&quot;);
+			} catch (SQLException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+		 }
+		
+		 else if (e.getSource() == mnuItemView2Ticket) {
+			 // retrieve all tickets details for viewing in JTable
+			 
+			 try {
+				 String ticketName = JOptionPane.showInputDialog(null, &quot;Enter your name to view your tickets&quot;);
+				 
+				 // Use JTable built in functionality to build a table model and
+				 // display the table model off your result set!!!
+				 JTable jt = new JTable(ticketsJTable.buildTableModel(dao.viewTicket2(ticketName)));
+				 jt.setBounds(30, 40, 200, 400);
+				 JScrollPane sp = new JScrollPane(jt);
+				 add(sp);
+				 setVisible(true); // refreshes or repaints frame on screen
+			 } catch (SQLException e1) {
+				e1.printStackTrace();
+			 }
+		 }
+		
+		 else if (e.getSource() == mnuItemView3Ticket) {
+			 // retrieve all tickets details for viewing in JTable
+			 
+			 try {
+				 int ticketId =  Integer.parseInt(JOptionPane.showInputDialog(null, &quot;Enter the ticket id&quot;));
+				 
+				 // Use JTable built in functionality to build a table model and
+				 // display the table model off your result set!!!
+				 JTable jt = new JTable(ticketsJTable.buildTableModel(dao.viewTicket3(ticketId)));
+				 jt.setBounds(30, 40, 200, 400);
+				 JScrollPane sp = new JScrollPane(jt);
+				 add(sp);
+				 setVisible(true); // refreshes or repaints frame on screen
+			 } catch (SQLException e1) {
+				 e1.printStackTrace();
+			 }
+		 }
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_UCNaYId9Ee6SStgsrqWP9Q" name="Tickets" method="_UFcUkId9Ee6SStgsrqWP9Q">
+          <eAnnotations xmi:id="_UCOBcYd9Ee6SStgsrqWP9Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_UCOBcod9Ee6SStgsrqWP9Q" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_UCOBcId9Ee6SStgsrqWP9Q" name="isAdmin">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_UCOBc4d9Ee6SStgsrqWP9Q" type="_UCKXEId9Ee6SStgsrqWP9Q" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_UCOogYd9Ee6SStgsrqWP9Q" name="createMenu" visibility="private" method="_UFcUk4d9Ee6SStgsrqWP9Q"/>
+        <ownedOperation xmi:id="_UCOog4d9Ee6SStgsrqWP9Q" name="prepareGUI" visibility="private" method="_UFcUlId9Ee6SStgsrqWP9Q"/>
+        <ownedOperation xmi:id="_UFA2wId9Ee6SStgsrqWP9Q" name="actionPerformed" method="_UFc7oId9Ee6SStgsrqWP9Q">
+          <ownedParameter xmi:id="_UFA2wYd9Ee6SStgsrqWP9Q" name="e" type="_UEpDUYd9Ee6SStgsrqWP9Q"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_UCWkUId9Ee6SStgsrqWP9Q" name="ticketsJTable">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UFdisId9Ee6SStgsrqWP9Q" name="buildTableModel" specification="_UFDTAId9Ee6SStgsrqWP9Q">
+          <ownedParameter xmi:id="_UFdisYd9Ee6SStgsrqWP9Q" name="rs" type="_UEiVoYd9Ee6SStgsrqWP9Q"/>
+          <ownedParameter xmi:id="_UFdisod9Ee6SStgsrqWP9Q" type="_UE0CcYd9Ee6SStgsrqWP9Q" direction="return"/>
+          <language>java</language>
+          <body>ResultSetMetaData metaData = rs.getMetaData();
+
+		// names of columns
+		Vector&lt;String> columnNames = new Vector&lt;String>();
+		int columnCount = metaData.getColumnCount();
+		for (int column = 1; column &lt;= columnCount; column++) {
+			columnNames.add(metaData.getColumnName(column));
+		}
+
+		// data of the table
+		Vector&lt;Vector&lt;Object>> data = new Vector&lt;Vector&lt;Object>>();
+		while (rs.next()) {
+			Vector&lt;Object> vector = new Vector&lt;Object>();
+			for (int columnIndex = 1; columnIndex &lt;= columnCount; columnIndex++) {
+				vector.add(rs.getObject(columnIndex));
+			}
+			data.add(vector);
+		}
+		// return data/col.names for JTable
+		return new DefaultTableModel(data, columnNames); 
+
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_UFDTAId9Ee6SStgsrqWP9Q" name="buildTableModel" isStatic="true" method="_UFdisId9Ee6SStgsrqWP9Q" raisedException="_UEi8sYd9Ee6SStgsrqWP9Q">
+          <ownedParameter xmi:id="_UFDTAYd9Ee6SStgsrqWP9Q" name="rs" type="_UEiVoYd9Ee6SStgsrqWP9Q"/>
+          <ownedParameter xmi:id="_UFDTAod9Ee6SStgsrqWP9Q" type="_UE0CcYd9Ee6SStgsrqWP9Q" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_UFjCQId9Ee6SStgsrqWP9Q" name="" memberEnd="_UFjCQYd9Ee6SStgsrqWP9Q _UFEhIId9Ee6SStgsrqWP9Q">
+        <ownedEnd xmi:id="_UFjCQYd9Ee6SStgsrqWP9Q" name="" type="_UBoyoId9Ee6SStgsrqWP9Q" association="_UFjCQId9Ee6SStgsrqWP9Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_UFkQYYd9Ee6SStgsrqWP9Q" name="" memberEnd="_UFkQYod9Ee6SStgsrqWP9Q _UFFIMYd9Ee6SStgsrqWP9Q">
+        <ownedEnd xmi:id="_UFkQYod9Ee6SStgsrqWP9Q" name="" type="_UBoyoId9Ee6SStgsrqWP9Q" association="_UFkQYYd9Ee6SStgsrqWP9Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_UFk3cYd9Ee6SStgsrqWP9Q" name="" memberEnd="_UFk3cod9Ee6SStgsrqWP9Q _UFGWUId9Ee6SStgsrqWP9Q">
+        <ownedEnd xmi:id="_UFk3cod9Ee6SStgsrqWP9Q" name="" type="_UCB0MId9Ee6SStgsrqWP9Q" association="_UFk3cYd9Ee6SStgsrqWP9Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_UFk3dId9Ee6SStgsrqWP9Q" name="" memberEnd="_UFk3dYd9Ee6SStgsrqWP9Q _UFG9YId9Ee6SStgsrqWP9Q">
+        <ownedEnd xmi:id="_UFk3dYd9Ee6SStgsrqWP9Q" name="" type="_UCKXEId9Ee6SStgsrqWP9Q" association="_UFk3dId9Ee6SStgsrqWP9Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_UFlegYd9Ee6SStgsrqWP9Q" name="" memberEnd="_UFlegod9Ee6SStgsrqWP9Q _UFHkcYd9Ee6SStgsrqWP9Q">
+        <ownedEnd xmi:id="_UFlegod9Ee6SStgsrqWP9Q" name="" type="_UCKXEId9Ee6SStgsrqWP9Q" association="_UFlegYd9Ee6SStgsrqWP9Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_UFmFkYd9Ee6SStgsrqWP9Q" name="" memberEnd="_UFmFkod9Ee6SStgsrqWP9Q _UFILgId9Ee6SStgsrqWP9Q">
+        <ownedEnd xmi:id="_UFmFkod9Ee6SStgsrqWP9Q" name="" type="_UCKXEId9Ee6SStgsrqWP9Q" association="_UFmFkYd9Ee6SStgsrqWP9Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_UFmsoId9Ee6SStgsrqWP9Q" name="" memberEnd="_UFmsoYd9Ee6SStgsrqWP9Q _UFILgod9Ee6SStgsrqWP9Q">
+        <ownedEnd xmi:id="_UFmsoYd9Ee6SStgsrqWP9Q" name="" type="_UCKXEId9Ee6SStgsrqWP9Q" association="_UFmsoId9Ee6SStgsrqWP9Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_UFmso4d9Ee6SStgsrqWP9Q" name="" memberEnd="_UFmspId9Ee6SStgsrqWP9Q _UFIykId9Ee6SStgsrqWP9Q">
+        <ownedEnd xmi:id="_UFmspId9Ee6SStgsrqWP9Q" name="" type="_UCKXEId9Ee6SStgsrqWP9Q" association="_UFmso4d9Ee6SStgsrqWP9Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_UFnTsYd9Ee6SStgsrqWP9Q" name="" memberEnd="_UFnTsod9Ee6SStgsrqWP9Q _UFIykYd9Ee6SStgsrqWP9Q">
+        <ownedEnd xmi:id="_UFnTsod9Ee6SStgsrqWP9Q" name="" type="_UCKXEId9Ee6SStgsrqWP9Q" association="_UFnTsYd9Ee6SStgsrqWP9Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_UFoh0Id9Ee6SStgsrqWP9Q" name="" memberEnd="_UFoh0Yd9Ee6SStgsrqWP9Q _UFIykod9Ee6SStgsrqWP9Q">
+        <ownedEnd xmi:id="_UFoh0Yd9Ee6SStgsrqWP9Q" name="" type="_UCKXEId9Ee6SStgsrqWP9Q" association="_UFoh0Id9Ee6SStgsrqWP9Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_UFoh04d9Ee6SStgsrqWP9Q" name="" memberEnd="_UFoh1Id9Ee6SStgsrqWP9Q _UFIyk4d9Ee6SStgsrqWP9Q">
+        <ownedEnd xmi:id="_UFoh1Id9Ee6SStgsrqWP9Q" name="" type="_UCKXEId9Ee6SStgsrqWP9Q" association="_UFoh04d9Ee6SStgsrqWP9Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_UFpI4Yd9Ee6SStgsrqWP9Q" name="" memberEnd="_UFpI4od9Ee6SStgsrqWP9Q _UFJZoId9Ee6SStgsrqWP9Q">
+        <ownedEnd xmi:id="_UFpI4od9Ee6SStgsrqWP9Q" name="" type="_UCKXEId9Ee6SStgsrqWP9Q" association="_UFpI4Yd9Ee6SStgsrqWP9Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_UFpv8Yd9Ee6SStgsrqWP9Q" name="" memberEnd="_UFpv8od9Ee6SStgsrqWP9Q _UFJZoYd9Ee6SStgsrqWP9Q">
+        <ownedEnd xmi:id="_UFpv8od9Ee6SStgsrqWP9Q" name="" type="_UCKXEId9Ee6SStgsrqWP9Q" association="_UFpv8Yd9Ee6SStgsrqWP9Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_UFqXAYd9Ee6SStgsrqWP9Q" name="" memberEnd="_UFqXAod9Ee6SStgsrqWP9Q _UFJZood9Ee6SStgsrqWP9Q">
+        <ownedEnd xmi:id="_UFqXAod9Ee6SStgsrqWP9Q" name="" type="_UCKXEId9Ee6SStgsrqWP9Q" association="_UFqXAYd9Ee6SStgsrqWP9Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_UFqXBId9Ee6SStgsrqWP9Q" name="" memberEnd="_UFqXBYd9Ee6SStgsrqWP9Q _UFKAsId9Ee6SStgsrqWP9Q">
+        <ownedEnd xmi:id="_UFqXBYd9Ee6SStgsrqWP9Q" name="" type="_UCKXEId9Ee6SStgsrqWP9Q" association="_UFqXBId9Ee6SStgsrqWP9Q"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_UBaJIId9Ee6SStgsrqWP9Q" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_UBaJIYd9Ee6SStgsrqWP9Q" name="swing">
+        <packagedElement xmi:type="uml:Package" xmi:id="_UBhd4Id9Ee6SStgsrqWP9Q" name="table">
+          <packagedElement xmi:type="uml:Class" xmi:id="_UE0CcYd9Ee6SStgsrqWP9Q" name="DefaultTableModel"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UEqRcId9Ee6SStgsrqWP9Q" name="JButton"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UEq4gId9Ee6SStgsrqWP9Q" name="JFrame"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UErfkYd9Ee6SStgsrqWP9Q" name="JLabel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UErfk4d9Ee6SStgsrqWP9Q" name="JPasswordField"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UEsGoYd9Ee6SStgsrqWP9Q" name="JTextField"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UEui4Yd9Ee6SStgsrqWP9Q" name="JMenu"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UEui44d9Ee6SStgsrqWP9Q" name="JMenuBar"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UEvJ8Yd9Ee6SStgsrqWP9Q" name="JMenuItem"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UEvxAId9Ee6SStgsrqWP9Q" name="JOptionPane"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UEvxAod9Ee6SStgsrqWP9Q" name="JScrollPane"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_UEwYEYd9Ee6SStgsrqWP9Q" name="JTable"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_T5-EYId9Ee6SStgsrqWP9Q">
+      <eAnnotations xmi:id="_T6C84Id9Ee6SStgsrqWP9Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_T6HOUId9Ee6SStgsrqWP9Q" base_Package="_T0RFAId9Ee6SStgsrqWP9Q">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_UBvgUId9Ee6SStgsrqWP9Q" base_Element="_UBuSMId9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_UCDCUId9Ee6SStgsrqWP9Q" base_Element="_UCB0MId9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:StyledElement xmi:id="_UCFekId9Ee6SStgsrqWP9Q" base_Element="_UCEQcId9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:StyledElement xmi:id="_UCGFoId9Ee6SStgsrqWP9Q" base_Element="_UCFekYd9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Annotations xmi:id="_UCH60Id9Ee6SStgsrqWP9Q" base_Element="_UCB0MId9Ee6SStgsrqWP9Q">
+    <annotations xmi:id="_UCH60Yd9Ee6SStgsrqWP9Q" name="SuppressWarnings">
+      <annotationParameters xmi:id="_UCH60od9Ee6SStgsrqWP9Q" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_UFew0Id9Ee6SStgsrqWP9Q" value="&quot;serial&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_UCK-IId9Ee6SStgsrqWP9Q" base_Element="_UCKXEId9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:StyledElement xmi:id="_UCOogId9Ee6SStgsrqWP9Q" base_Element="_UCNaYId9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:StyledElement xmi:id="_UCOogod9Ee6SStgsrqWP9Q" base_Element="_UCOogYd9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:StyledElement xmi:id="_UCPPkId9Ee6SStgsrqWP9Q" base_Element="_UCOog4d9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Annotations xmi:id="_UCP2oId9Ee6SStgsrqWP9Q" base_Element="_UCKXEId9Ee6SStgsrqWP9Q">
+    <annotations xmi:id="_UCP2oYd9Ee6SStgsrqWP9Q" name="SuppressWarnings">
+      <annotationParameters xmi:id="_UCP2ood9Ee6SStgsrqWP9Q" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_UFew0Yd9Ee6SStgsrqWP9Q" value="&quot;serial&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_UEeEMId9Ee6SStgsrqWP9Q" base_Element="_UEddIId9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UEf5YId9Ee6SStgsrqWP9Q" base_Element="_UEfSUId9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UEggcId9Ee6SStgsrqWP9Q" base_Element="_UEf5YYd9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UEhHgId9Ee6SStgsrqWP9Q" base_Element="_UEggcYd9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UEhukId9Ee6SStgsrqWP9Q" base_Element="_UEhHgYd9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UEiVoId9Ee6SStgsrqWP9Q" base_Element="_UEhukYd9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UEi8sId9Ee6SStgsrqWP9Q" base_Element="_UEiVoYd9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UEjjwId9Ee6SStgsrqWP9Q" base_Element="_UEi8sYd9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UEkx4Id9Ee6SStgsrqWP9Q" base_Element="_UEkK0Id9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UElY8Id9Ee6SStgsrqWP9Q" base_Element="_UEkx4Yd9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UEmAAId9Ee6SStgsrqWP9Q" base_Element="_UElY8Yd9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UEmAAod9Ee6SStgsrqWP9Q" base_Element="_UEmAAYd9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UEmnEId9Ee6SStgsrqWP9Q" base_Element="_UEmAA4d9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UEpDUId9Ee6SStgsrqWP9Q" base_Element="_UEocQId9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UEpDUod9Ee6SStgsrqWP9Q" base_Element="_UEpDUYd9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UEpqYYd9Ee6SStgsrqWP9Q" base_Element="_UEpqYId9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UEqRcYd9Ee6SStgsrqWP9Q" base_Element="_UEqRcId9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UErfkId9Ee6SStgsrqWP9Q" base_Element="_UEq4gId9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UErfkod9Ee6SStgsrqWP9Q" base_Element="_UErfkYd9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UEsGoId9Ee6SStgsrqWP9Q" base_Element="_UErfk4d9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UEstsId9Ee6SStgsrqWP9Q" base_Element="_UEsGoYd9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UEtUwYd9Ee6SStgsrqWP9Q" base_Element="_UEtUwId9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UEt70Id9Ee6SStgsrqWP9Q" base_Element="_UEtUwod9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UEui4Id9Ee6SStgsrqWP9Q" base_Element="_UEt70Yd9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UEui4od9Ee6SStgsrqWP9Q" base_Element="_UEui4Yd9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UEvJ8Id9Ee6SStgsrqWP9Q" base_Element="_UEui44d9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UEvJ8od9Ee6SStgsrqWP9Q" base_Element="_UEvJ8Yd9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UEvxAYd9Ee6SStgsrqWP9Q" base_Element="_UEvxAId9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UEwYEId9Ee6SStgsrqWP9Q" base_Element="_UEvxAod9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UEwYEod9Ee6SStgsrqWP9Q" base_Element="_UEwYEYd9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UEzbYId9Ee6SStgsrqWP9Q" base_Element="_UEy0UId9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UE0CcId9Ee6SStgsrqWP9Q" base_Element="_UEzbYYd9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UE0Ccod9Ee6SStgsrqWP9Q" base_Element="_UE0CcYd9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Annotations xmi:id="_UFBd0Id9Ee6SStgsrqWP9Q" base_Element="_UFA2wId9Ee6SStgsrqWP9Q">
+    <annotations xmi:id="_UFBd0Yd9Ee6SStgsrqWP9Q" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_UFFIMId9Ee6SStgsrqWP9Q" base_Element="_UFEhIId9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_UFFvQYd9Ee6SStgsrqWP9Q" base_Element="_UFFIMYd9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UFkQYId9Ee6SStgsrqWP9Q" base_Element="_UFjCQId9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UFk3cId9Ee6SStgsrqWP9Q" base_Element="_UFkQYYd9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UFk3c4d9Ee6SStgsrqWP9Q" base_Element="_UFk3cYd9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UFlegId9Ee6SStgsrqWP9Q" base_Element="_UFk3dId9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UFmFkId9Ee6SStgsrqWP9Q" base_Element="_UFlegYd9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UFmFk4d9Ee6SStgsrqWP9Q" base_Element="_UFmFkYd9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UFmsood9Ee6SStgsrqWP9Q" base_Element="_UFmsoId9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UFnTsId9Ee6SStgsrqWP9Q" base_Element="_UFmso4d9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UFn6wId9Ee6SStgsrqWP9Q" base_Element="_UFnTsYd9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UFoh0od9Ee6SStgsrqWP9Q" base_Element="_UFoh0Id9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UFpI4Id9Ee6SStgsrqWP9Q" base_Element="_UFoh04d9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UFpv8Id9Ee6SStgsrqWP9Q" base_Element="_UFpI4Yd9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UFqXAId9Ee6SStgsrqWP9Q" base_Element="_UFpv8Yd9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UFqXA4d9Ee6SStgsrqWP9Q" base_Element="_UFqXAYd9Ee6SStgsrqWP9Q"/>
+  <UMLLabProfile:Reference xmi:id="_UFq-EId9Ee6SStgsrqWP9Q" base_Element="_UFqXBId9Ee6SStgsrqWP9Q"/>
+</xmi:XMI>

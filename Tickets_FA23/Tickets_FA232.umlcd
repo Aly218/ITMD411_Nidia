@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_T23tGId9Ee6SStgsrqWP9Q">
+  <modelElement href="Tickets_FA232.uml#_UBVQoId9Ee6SStgsrqWP9Q"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Van-0Id9Ee6SStgsrqWP9Q" source="_VarpMId9Ee6SStgsrqWP9Q">
+    <modelElement href="Tickets_FA232.uml#_UFjCQId9Ee6SStgsrqWP9Q"/>
+    <stereotypes xmi:id="_Vaol4Id9Ee6SStgsrqWP9Q" name="Reference">
+      <modelElement href="Tickets_FA232.uml#_UFkQYId9Ee6SStgsrqWP9Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Vaol4Yd9Ee6SStgsrqWP9Q" text=""/>
+    <sourceRole xmi:id="_Vaol4od9Ee6SStgsrqWP9Q" aggregationKind="NONE" name="">
+      <modelElement href="Tickets_FA232.uml#_UFjCQYd9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_Vaol44d9Ee6SStgsrqWP9Q" label="+"/>
+      <cardinality xmi:id="_Vaol5Id9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Vaol5Yd9Ee6SStgsrqWP9Q" aggregationKind="NONE" name="connect" navigable="true">
+      <modelElement href="Tickets_FA232.uml#_UFEhIId9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_Vaol5od9Ee6SStgsrqWP9Q" label="~"/>
+      <cardinality xmi:id="_Vaol54d9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VaqbEId9Ee6SStgsrqWP9Q" source="_VarpMId9Ee6SStgsrqWP9Q">
+    <modelElement href="Tickets_FA232.uml#_UFkQYYd9Ee6SStgsrqWP9Q"/>
+    <stereotypes xmi:id="_VaqbEYd9Ee6SStgsrqWP9Q" name="Reference">
+      <modelElement href="Tickets_FA232.uml#_UFk3cId9Ee6SStgsrqWP9Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VaqbEod9Ee6SStgsrqWP9Q" text=""/>
+    <sourceRole xmi:id="_VaqbE4d9Ee6SStgsrqWP9Q" aggregationKind="NONE" name="">
+      <modelElement href="Tickets_FA232.uml#_UFkQYod9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_VaqbFId9Ee6SStgsrqWP9Q" label="+"/>
+      <cardinality xmi:id="_VaqbFYd9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VaqbFod9Ee6SStgsrqWP9Q" aggregationKind="NONE" name="statement" navigable="true">
+      <modelElement href="Tickets_FA232.uml#_UFFIMYd9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_VaqbF4d9Ee6SStgsrqWP9Q" label="~"/>
+      <cardinality xmi:id="_VaqbGId9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VcDiMId9Ee6SStgsrqWP9Q" sourceAnchor="0.0,54.0" targetAnchor="416.0,173.0" target="_VarpMId9Ee6SStgsrqWP9Q" source="_VcdK0Id9Ee6SStgsrqWP9Q">
+    <modelElement href="Tickets_FA232.uml#_UFk3cYd9Ee6SStgsrqWP9Q"/>
+    <stereotypes xmi:id="_VcZgc4d9Ee6SStgsrqWP9Q" name="Reference">
+      <modelElement href="Tickets_FA232.uml#_UFk3c4d9Ee6SStgsrqWP9Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VcZgcId9Ee6SStgsrqWP9Q" text="">
+      <visualProperties xmi:id="_VrgTcId9Ee6SStgsrqWP9Q" position="-4.5,-11.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_VcZgcYd9Ee6SStgsrqWP9Q" aggregationKind="NONE" name="">
+      <modelElement href="Tickets_FA232.uml#_UFk3cod9Ee6SStgsrqWP9Q"/>
+      <visualProperties xmi:id="_VrfsYId9Ee6SStgsrqWP9Q" position="-20.5,11.5"/>
+      <visibility xmi:id="_VcbVoYd9Ee6SStgsrqWP9Q" label="+"/>
+      <cardinality xmi:id="_VcbVoId9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VcZgcod9Ee6SStgsrqWP9Q" aggregationKind="NONE" name="conn" navigable="true">
+      <modelElement href="Tickets_FA232.uml#_UFGWUId9Ee6SStgsrqWP9Q"/>
+      <visualProperties xmi:id="_VrgTcYd9Ee6SStgsrqWP9Q" position="5.5,-66.50000000000006"/>
+      <visibility xmi:id="_VcbVo4d9Ee6SStgsrqWP9Q" label="~"/>
+      <cardinality xmi:id="_VcbVood9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Vc-vQId9Ee6SStgsrqWP9Q" sourceAnchor="167.0,0.0" targetAnchor="208.0,346.0" target="_VarpMId9Ee6SStgsrqWP9Q" source="_Vd0cwId9Ee6SStgsrqWP9Q">
+    <modelElement href="Tickets_FA232.uml#_UFk3dId9Ee6SStgsrqWP9Q"/>
+    <stereotypes xmi:id="_Vdd3cId9Ee6SStgsrqWP9Q" name="Reference">
+      <modelElement href="Tickets_FA232.uml#_UFlegId9Ee6SStgsrqWP9Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VddQYId9Ee6SStgsrqWP9Q" text="">
+      <visualProperties xmi:id="_Vrg6gYd9Ee6SStgsrqWP9Q" position="-23.0,-7.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_VddQYYd9Ee6SStgsrqWP9Q" aggregationKind="NONE" name="">
+      <modelElement href="Tickets_FA232.uml#_UFk3dYd9Ee6SStgsrqWP9Q"/>
+      <visualProperties xmi:id="_Vrg6gId9Ee6SStgsrqWP9Q" position="-21.0,-59.5"/>
+      <visibility xmi:id="_VdgTsYd9Ee6SStgsrqWP9Q" label="+"/>
+      <cardinality xmi:id="_VdgTsId9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VddQYod9Ee6SStgsrqWP9Q" aggregationKind="NONE" name="dao" navigable="true">
+      <modelElement href="Tickets_FA232.uml#_UFG9YId9Ee6SStgsrqWP9Q"/>
+      <visualProperties xmi:id="_VrhhkId9Ee6SStgsrqWP9Q" position="5.0,5.0"/>
+      <visibility xmi:id="_VdgTs4d9Ee6SStgsrqWP9Q" label="~"/>
+      <cardinality xmi:id="_VdgTsod9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Vdhh0Id9Ee6SStgsrqWP9Q" source="_Vd0cwId9Ee6SStgsrqWP9Q">
+    <modelElement href="Tickets_FA232.uml#_UFlegYd9Ee6SStgsrqWP9Q"/>
+    <stereotypes xmi:id="_Vdhh0Yd9Ee6SStgsrqWP9Q" name="Reference">
+      <modelElement href="Tickets_FA232.uml#_UFmFkId9Ee6SStgsrqWP9Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Vdhh0od9Ee6SStgsrqWP9Q" text=""/>
+    <sourceRole xmi:id="_Vdhh04d9Ee6SStgsrqWP9Q" aggregationKind="NONE" name="">
+      <modelElement href="Tickets_FA232.uml#_UFlegod9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_Vdhh1Id9Ee6SStgsrqWP9Q" label="+"/>
+      <cardinality xmi:id="_Vdhh1Yd9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Vdhh1od9Ee6SStgsrqWP9Q" aggregationKind="NONE" name="mnuFile" navigable="true">
+      <modelElement href="Tickets_FA232.uml#_UFHkcYd9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_Vdhh14d9Ee6SStgsrqWP9Q" label="-"/>
+      <cardinality xmi:id="_Vdhh2Id9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VdnBYId9Ee6SStgsrqWP9Q" source="_Vd0cwId9Ee6SStgsrqWP9Q">
+    <modelElement href="Tickets_FA232.uml#_UFmFkYd9Ee6SStgsrqWP9Q"/>
+    <stereotypes xmi:id="_VdnBYYd9Ee6SStgsrqWP9Q" name="Reference">
+      <modelElement href="Tickets_FA232.uml#_UFmFk4d9Ee6SStgsrqWP9Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VdnBYod9Ee6SStgsrqWP9Q" text=""/>
+    <sourceRole xmi:id="_VdnBY4d9Ee6SStgsrqWP9Q" aggregationKind="NONE" name="">
+      <modelElement href="Tickets_FA232.uml#_UFmFkod9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_VdnBZId9Ee6SStgsrqWP9Q" label="+"/>
+      <cardinality xmi:id="_VdnBZYd9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VdnBZod9Ee6SStgsrqWP9Q" aggregationKind="NONE" name="mnuAdmin" navigable="true">
+      <modelElement href="Tickets_FA232.uml#_UFILgId9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_VdnBZ4d9Ee6SStgsrqWP9Q" label="-"/>
+      <cardinality xmi:id="_VdnBaId9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VdwyYId9Ee6SStgsrqWP9Q" source="_Vd0cwId9Ee6SStgsrqWP9Q">
+    <modelElement href="Tickets_FA232.uml#_UFmsoId9Ee6SStgsrqWP9Q"/>
+    <stereotypes xmi:id="_VdwyYYd9Ee6SStgsrqWP9Q" name="Reference">
+      <modelElement href="Tickets_FA232.uml#_UFmsood9Ee6SStgsrqWP9Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VdwyYod9Ee6SStgsrqWP9Q" text=""/>
+    <sourceRole xmi:id="_VdwyY4d9Ee6SStgsrqWP9Q" aggregationKind="NONE" name="">
+      <modelElement href="Tickets_FA232.uml#_UFmsoYd9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_VdwyZId9Ee6SStgsrqWP9Q" label="+"/>
+      <cardinality xmi:id="_VdwyZYd9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VdwyZod9Ee6SStgsrqWP9Q" aggregationKind="NONE" name="mnuTickets" navigable="true">
+      <modelElement href="Tickets_FA232.uml#_UFILgod9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_VdwyZ4d9Ee6SStgsrqWP9Q" label="-"/>
+      <cardinality xmi:id="_VdwyaId9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VdxZcId9Ee6SStgsrqWP9Q" source="_Vd0cwId9Ee6SStgsrqWP9Q">
+    <modelElement href="Tickets_FA232.uml#_UFmso4d9Ee6SStgsrqWP9Q"/>
+    <stereotypes xmi:id="_VdxZcYd9Ee6SStgsrqWP9Q" name="Reference">
+      <modelElement href="Tickets_FA232.uml#_UFnTsId9Ee6SStgsrqWP9Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VdxZcod9Ee6SStgsrqWP9Q" text=""/>
+    <sourceRole xmi:id="_VdxZc4d9Ee6SStgsrqWP9Q" aggregationKind="NONE" name="">
+      <modelElement href="Tickets_FA232.uml#_UFmspId9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_VdxZdId9Ee6SStgsrqWP9Q" label="+"/>
+      <cardinality xmi:id="_VdxZdYd9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VdxZdod9Ee6SStgsrqWP9Q" aggregationKind="NONE" name="mnuItemExit" navigable="true">
+      <modelElement href="Tickets_FA232.uml#_UFIykId9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_VdxZd4d9Ee6SStgsrqWP9Q" label="~"/>
+      <cardinality xmi:id="_VdxZeId9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VdyAgId9Ee6SStgsrqWP9Q" source="_Vd0cwId9Ee6SStgsrqWP9Q">
+    <modelElement href="Tickets_FA232.uml#_UFnTsYd9Ee6SStgsrqWP9Q"/>
+    <stereotypes xmi:id="_VdyAgYd9Ee6SStgsrqWP9Q" name="Reference">
+      <modelElement href="Tickets_FA232.uml#_UFn6wId9Ee6SStgsrqWP9Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VdyAgod9Ee6SStgsrqWP9Q" text=""/>
+    <sourceRole xmi:id="_VdyAg4d9Ee6SStgsrqWP9Q" aggregationKind="NONE" name="">
+      <modelElement href="Tickets_FA232.uml#_UFnTsod9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_VdyAhId9Ee6SStgsrqWP9Q" label="+"/>
+      <cardinality xmi:id="_VdyAhYd9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VdyAhod9Ee6SStgsrqWP9Q" aggregationKind="NONE" name="mnuItemUpdate" navigable="true">
+      <modelElement href="Tickets_FA232.uml#_UFIykYd9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_VdyAh4d9Ee6SStgsrqWP9Q" label="~"/>
+      <cardinality xmi:id="_VdyAiId9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VdynkId9Ee6SStgsrqWP9Q" source="_Vd0cwId9Ee6SStgsrqWP9Q">
+    <modelElement href="Tickets_FA232.uml#_UFoh0Id9Ee6SStgsrqWP9Q"/>
+    <stereotypes xmi:id="_VdynkYd9Ee6SStgsrqWP9Q" name="Reference">
+      <modelElement href="Tickets_FA232.uml#_UFoh0od9Ee6SStgsrqWP9Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Vdynkod9Ee6SStgsrqWP9Q" text=""/>
+    <sourceRole xmi:id="_Vdynk4d9Ee6SStgsrqWP9Q" aggregationKind="NONE" name="">
+      <modelElement href="Tickets_FA232.uml#_UFoh0Yd9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_VdynlId9Ee6SStgsrqWP9Q" label="+"/>
+      <cardinality xmi:id="_VdynlYd9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Vdynlod9Ee6SStgsrqWP9Q" aggregationKind="NONE" name="mnuItemDelete" navigable="true">
+      <modelElement href="Tickets_FA232.uml#_UFIykod9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_Vdynl4d9Ee6SStgsrqWP9Q" label="~"/>
+      <cardinality xmi:id="_VdynmId9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VdzOoId9Ee6SStgsrqWP9Q" source="_Vd0cwId9Ee6SStgsrqWP9Q">
+    <modelElement href="Tickets_FA232.uml#_UFoh04d9Ee6SStgsrqWP9Q"/>
+    <stereotypes xmi:id="_VdzOoYd9Ee6SStgsrqWP9Q" name="Reference">
+      <modelElement href="Tickets_FA232.uml#_UFpI4Id9Ee6SStgsrqWP9Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VdzOood9Ee6SStgsrqWP9Q" text=""/>
+    <sourceRole xmi:id="_VdzOo4d9Ee6SStgsrqWP9Q" aggregationKind="NONE" name="">
+      <modelElement href="Tickets_FA232.uml#_UFoh1Id9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_VdzOpId9Ee6SStgsrqWP9Q" label="+"/>
+      <cardinality xmi:id="_VdzOpYd9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VdzOpod9Ee6SStgsrqWP9Q" aggregationKind="NONE" name="mnuItemOpenTicket" navigable="true">
+      <modelElement href="Tickets_FA232.uml#_UFIyk4d9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_VdzOp4d9Ee6SStgsrqWP9Q" label="~"/>
+      <cardinality xmi:id="_VdzOqId9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VdzOqYd9Ee6SStgsrqWP9Q" source="_Vd0cwId9Ee6SStgsrqWP9Q">
+    <modelElement href="Tickets_FA232.uml#_UFpI4Yd9Ee6SStgsrqWP9Q"/>
+    <stereotypes xmi:id="_VdzOqod9Ee6SStgsrqWP9Q" name="Reference">
+      <modelElement href="Tickets_FA232.uml#_UFpv8Id9Ee6SStgsrqWP9Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VdzOq4d9Ee6SStgsrqWP9Q" text=""/>
+    <sourceRole xmi:id="_VdzOrId9Ee6SStgsrqWP9Q" aggregationKind="NONE" name="">
+      <modelElement href="Tickets_FA232.uml#_UFpI4od9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_VdzOrYd9Ee6SStgsrqWP9Q" label="+"/>
+      <cardinality xmi:id="_VdzOrod9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VdzOr4d9Ee6SStgsrqWP9Q" aggregationKind="NONE" name="mnuItemViewTicket" navigable="true">
+      <modelElement href="Tickets_FA232.uml#_UFJZoId9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_VdzOsId9Ee6SStgsrqWP9Q" label="~"/>
+      <cardinality xmi:id="_VdzOsYd9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VdzOsod9Ee6SStgsrqWP9Q" source="_Vd0cwId9Ee6SStgsrqWP9Q">
+    <modelElement href="Tickets_FA232.uml#_UFpv8Yd9Ee6SStgsrqWP9Q"/>
+    <stereotypes xmi:id="_VdzOs4d9Ee6SStgsrqWP9Q" name="Reference">
+      <modelElement href="Tickets_FA232.uml#_UFqXAId9Ee6SStgsrqWP9Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VdzOtId9Ee6SStgsrqWP9Q" text=""/>
+    <sourceRole xmi:id="_VdzOtYd9Ee6SStgsrqWP9Q" aggregationKind="NONE" name="">
+      <modelElement href="Tickets_FA232.uml#_UFpv8od9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_VdzOtod9Ee6SStgsrqWP9Q" label="+"/>
+      <cardinality xmi:id="_VdzOt4d9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VdzOuId9Ee6SStgsrqWP9Q" aggregationKind="NONE" name="mnuItemCloseTicket" navigable="true">
+      <modelElement href="Tickets_FA232.uml#_UFJZoYd9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_VdzOuYd9Ee6SStgsrqWP9Q" label="~"/>
+      <cardinality xmi:id="_VdzOuod9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Vdz1sId9Ee6SStgsrqWP9Q" source="_Vd0cwId9Ee6SStgsrqWP9Q">
+    <modelElement href="Tickets_FA232.uml#_UFqXAYd9Ee6SStgsrqWP9Q"/>
+    <stereotypes xmi:id="_Vdz1sYd9Ee6SStgsrqWP9Q" name="Reference">
+      <modelElement href="Tickets_FA232.uml#_UFqXA4d9Ee6SStgsrqWP9Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Vdz1sod9Ee6SStgsrqWP9Q" text=""/>
+    <sourceRole xmi:id="_Vdz1s4d9Ee6SStgsrqWP9Q" aggregationKind="NONE" name="">
+      <modelElement href="Tickets_FA232.uml#_UFqXAod9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_Vdz1tId9Ee6SStgsrqWP9Q" label="+"/>
+      <cardinality xmi:id="_Vdz1tYd9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Vdz1tod9Ee6SStgsrqWP9Q" aggregationKind="NONE" name="mnuItemView2Ticket" navigable="true">
+      <modelElement href="Tickets_FA232.uml#_UFJZood9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_Vdz1t4d9Ee6SStgsrqWP9Q" label="~"/>
+      <cardinality xmi:id="_Vdz1uId9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Vdz1uYd9Ee6SStgsrqWP9Q" source="_Vd0cwId9Ee6SStgsrqWP9Q">
+    <modelElement href="Tickets_FA232.uml#_UFqXBId9Ee6SStgsrqWP9Q"/>
+    <stereotypes xmi:id="_Vdz1uod9Ee6SStgsrqWP9Q" name="Reference">
+      <modelElement href="Tickets_FA232.uml#_UFq-EId9Ee6SStgsrqWP9Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Vdz1u4d9Ee6SStgsrqWP9Q" text=""/>
+    <sourceRole xmi:id="_Vdz1vId9Ee6SStgsrqWP9Q" aggregationKind="NONE" name="">
+      <modelElement href="Tickets_FA232.uml#_UFqXBYd9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_Vdz1vYd9Ee6SStgsrqWP9Q" label="+"/>
+      <cardinality xmi:id="_Vdz1vod9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Vdz1v4d9Ee6SStgsrqWP9Q" aggregationKind="NONE" name="mnuItemView3Ticket" navigable="true">
+      <modelElement href="Tickets_FA232.uml#_UFKAsId9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_Vdz1wId9Ee6SStgsrqWP9Q" label="~"/>
+      <cardinality xmi:id="_Vdz1wYd9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VarpMId9Ee6SStgsrqWP9Q" name="Dao" associationsIn="_VcDiMId9Ee6SStgsrqWP9Q _Vc-vQId9Ee6SStgsrqWP9Q" associationsOut="_Van-0Id9Ee6SStgsrqWP9Q _VaqbEId9Ee6SStgsrqWP9Q">
+    <modelElement href="Tickets_FA232.uml#_UBoyoId9Ee6SStgsrqWP9Q"/>
+    <visualProperties xmi:id="_VarpMYd9Ee6SStgsrqWP9Q" position="11.0,32.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VarpMod9Ee6SStgsrqWP9Q" label="+"/>
+    <attributes xmi:id="_VarpM4d9Ee6SStgsrqWP9Q" defaultValue="null" name="connect" staticAttribute="true">
+      <modelElement href="Tickets_FA232.uml#_UFEhIId9Ee6SStgsrqWP9Q"/>
+      <stereotypes xmi:id="_VarpNId9Ee6SStgsrqWP9Q" name="LegacyStyledElement">
+        <modelElement href="Tickets_FA232.uml#_UFFIMId9Ee6SStgsrqWP9Q"/>
+      </stereotypes>
+      <visibility xmi:id="_VarpNYd9Ee6SStgsrqWP9Q" label="~"/>
+      <cardinality xmi:id="_VarpNod9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+      <type xmi:id="_VarpN4d9Ee6SStgsrqWP9Q" name="Connection">
+        <modelElement href="Tickets_FA232.uml#_UEggcYd9Ee6SStgsrqWP9Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VarpOId9Ee6SStgsrqWP9Q" defaultValue="null" name="statement">
+      <modelElement href="Tickets_FA232.uml#_UFFIMYd9Ee6SStgsrqWP9Q"/>
+      <stereotypes xmi:id="_VarpOYd9Ee6SStgsrqWP9Q" name="LegacyStyledElement">
+        <modelElement href="Tickets_FA232.uml#_UFFvQYd9Ee6SStgsrqWP9Q"/>
+      </stereotypes>
+      <visibility xmi:id="_VarpOod9Ee6SStgsrqWP9Q" label="~"/>
+      <cardinality xmi:id="_VarpO4d9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+      <type xmi:id="_VarpPId9Ee6SStgsrqWP9Q" name="Statement">
+        <modelElement href="Tickets_FA232.uml#_UEkK0Id9Ee6SStgsrqWP9Q"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_VarpPYd9Ee6SStgsrqWP9Q" name="Dao">
+      <modelElement href="Tickets_FA232.uml#_UBuSMId9Ee6SStgsrqWP9Q"/>
+      <keywords xmi:id="_VarpPod9Ee6SStgsrqWP9Q" keyword="create"/>
+      <stereotypes xmi:id="_VarpP4d9Ee6SStgsrqWP9Q" name="LegacyStyledElement">
+        <modelElement href="Tickets_FA232.uml#_UBvgUId9Ee6SStgsrqWP9Q"/>
+      </stereotypes>
+      <visibility xmi:id="_VarpQId9Ee6SStgsrqWP9Q" label="+"/>
+      <cardinality xmi:id="_VarpQYd9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VarpQod9Ee6SStgsrqWP9Q">
+        <modelElement href="Tickets_FA232.uml#_UBwucId9Ee6SStgsrqWP9Q"/>
+        <type xmi:id="_VarpQ4d9Ee6SStgsrqWP9Q" name="Dao">
+          <modelElement href="Tickets_FA232.uml#_UBoyoId9Ee6SStgsrqWP9Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VarpRId9Ee6SStgsrqWP9Q" name="getConnection">
+      <modelElement href="Tickets_FA232.uml#_UBxVgId9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_VarpRYd9Ee6SStgsrqWP9Q" label="+"/>
+      <cardinality xmi:id="_VarpRod9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VarpR4d9Ee6SStgsrqWP9Q">
+        <modelElement href="Tickets_FA232.uml#_UE13oId9Ee6SStgsrqWP9Q"/>
+        <type xmi:id="_VarpSId9Ee6SStgsrqWP9Q" name="Connection">
+          <modelElement href="Tickets_FA232.uml#_UEggcYd9Ee6SStgsrqWP9Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VarpSYd9Ee6SStgsrqWP9Q" name="createTables">
+      <modelElement href="Tickets_FA232.uml#_UBzxwId9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_VarpSod9Ee6SStgsrqWP9Q" label="+"/>
+      <cardinality xmi:id="_VarpS4d9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VarpTId9Ee6SStgsrqWP9Q" name="addUsers">
+      <modelElement href="Tickets_FA232.uml#_UB0_4Id9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_VarpTYd9Ee6SStgsrqWP9Q" label="+"/>
+      <cardinality xmi:id="_VarpTod9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VarpT4d9Ee6SStgsrqWP9Q" name="readRecords">
+      <modelElement href="Tickets_FA232.uml#_UB1m8Id9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_VarpUId9Ee6SStgsrqWP9Q" label="+"/>
+      <cardinality xmi:id="_VarpUYd9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VarpUod9Ee6SStgsrqWP9Q">
+        <modelElement href="Tickets_FA232.uml#_UE13oYd9Ee6SStgsrqWP9Q"/>
+        <type xmi:id="_VarpU4d9Ee6SStgsrqWP9Q" name="ResultSet">
+          <modelElement href="Tickets_FA232.uml#_UEiVoYd9Ee6SStgsrqWP9Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VarpVId9Ee6SStgsrqWP9Q" name="updateRecords">
+      <modelElement href="Tickets_FA232.uml#_UB21EId9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_VarpVYd9Ee6SStgsrqWP9Q" label="+"/>
+      <cardinality xmi:id="_VarpVod9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VarpV4d9Ee6SStgsrqWP9Q">
+        <modelElement href="Tickets_FA232.uml#_UB3cIYd9Ee6SStgsrqWP9Q"/>
+        <type xmi:id="_VarpWId9Ee6SStgsrqWP9Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VarpWYd9Ee6SStgsrqWP9Q" name="ticketId">
+        <modelElement href="Tickets_FA232.uml#_UB21EYd9Ee6SStgsrqWP9Q"/>
+        <cardinality xmi:id="_VarpWod9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+        <type xmi:id="_VarpW4d9Ee6SStgsrqWP9Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VarpXId9Ee6SStgsrqWP9Q" name="ticketDesc">
+        <modelElement href="Tickets_FA232.uml#_UB3cIId9Ee6SStgsrqWP9Q"/>
+        <cardinality xmi:id="_VarpXYd9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+        <type xmi:id="_VarpXod9Ee6SStgsrqWP9Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VarpX4d9Ee6SStgsrqWP9Q" name="deleteRecords">
+      <modelElement href="Tickets_FA232.uml#_UB4DMId9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_VarpYId9Ee6SStgsrqWP9Q" label="+"/>
+      <cardinality xmi:id="_VarpYYd9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VarpYod9Ee6SStgsrqWP9Q">
+        <modelElement href="Tickets_FA232.uml#_UB4qQId9Ee6SStgsrqWP9Q"/>
+        <type xmi:id="_VarpY4d9Ee6SStgsrqWP9Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VarpZId9Ee6SStgsrqWP9Q" name="ticketId">
+        <modelElement href="Tickets_FA232.uml#_UB4DMYd9Ee6SStgsrqWP9Q"/>
+        <cardinality xmi:id="_VarpZYd9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+        <type xmi:id="_VarpZod9Ee6SStgsrqWP9Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VarpZ4d9Ee6SStgsrqWP9Q" name="insertRecords">
+      <modelElement href="Tickets_FA232.uml#_UB5RUId9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_VarpaId9Ee6SStgsrqWP9Q" label="+"/>
+      <cardinality xmi:id="_VarpaYd9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Varpaod9Ee6SStgsrqWP9Q" name="ticketName">
+        <modelElement href="Tickets_FA232.uml#_UB5RUYd9Ee6SStgsrqWP9Q"/>
+        <cardinality xmi:id="_Varpa4d9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+        <type xmi:id="_VarpbId9Ee6SStgsrqWP9Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VarpbYd9Ee6SStgsrqWP9Q" name="ticketDesc">
+        <modelElement href="Tickets_FA232.uml#_UB54YId9Ee6SStgsrqWP9Q"/>
+        <cardinality xmi:id="_Varpbod9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+        <type xmi:id="_Varpb4d9Ee6SStgsrqWP9Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VarpcId9Ee6SStgsrqWP9Q" name="closeTicket">
+      <modelElement href="Tickets_FA232.uml#_UB6fcId9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_VarpcYd9Ee6SStgsrqWP9Q" label="+"/>
+      <cardinality xmi:id="_Varpcod9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Varpc4d9Ee6SStgsrqWP9Q" name="ticketId">
+        <modelElement href="Tickets_FA232.uml#_UB6fcYd9Ee6SStgsrqWP9Q"/>
+        <cardinality xmi:id="_VarpdId9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+        <type xmi:id="_VarpdYd9Ee6SStgsrqWP9Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Varpdod9Ee6SStgsrqWP9Q" name="viewTicket2">
+      <modelElement href="Tickets_FA232.uml#_UB7GgId9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_Varpd4d9Ee6SStgsrqWP9Q" label="+"/>
+      <cardinality xmi:id="_VarpeId9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VarpeYd9Ee6SStgsrqWP9Q">
+        <modelElement href="Tickets_FA232.uml#_UE3FwId9Ee6SStgsrqWP9Q"/>
+        <type xmi:id="_Varpeod9Ee6SStgsrqWP9Q" name="ResultSet">
+          <modelElement href="Tickets_FA232.uml#_UEiVoYd9Ee6SStgsrqWP9Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Varpe4d9Ee6SStgsrqWP9Q" name="ticketName">
+        <modelElement href="Tickets_FA232.uml#_UB7GgYd9Ee6SStgsrqWP9Q"/>
+        <cardinality xmi:id="_VarpfId9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+        <type xmi:id="_VarpfYd9Ee6SStgsrqWP9Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Varpfod9Ee6SStgsrqWP9Q" name="viewTicket3">
+      <modelElement href="Tickets_FA232.uml#_UB7tkId9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_Varpf4d9Ee6SStgsrqWP9Q" label="+"/>
+      <cardinality xmi:id="_VarpgId9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VarpgYd9Ee6SStgsrqWP9Q">
+        <modelElement href="Tickets_FA232.uml#_UE3FwYd9Ee6SStgsrqWP9Q"/>
+        <type xmi:id="_Varpgod9Ee6SStgsrqWP9Q" name="ResultSet">
+          <modelElement href="Tickets_FA232.uml#_UEiVoYd9Ee6SStgsrqWP9Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Varpg4d9Ee6SStgsrqWP9Q" name="ticketId">
+        <modelElement href="Tickets_FA232.uml#_UB7tkYd9Ee6SStgsrqWP9Q"/>
+        <cardinality xmi:id="_VarphId9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+        <type xmi:id="_VarphYd9Ee6SStgsrqWP9Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VcdK0Id9Ee6SStgsrqWP9Q" name="Login" associationsOut="_VcDiMId9Ee6SStgsrqWP9Q">
+    <modelElement href="Tickets_FA232.uml#_UCB0MId9Ee6SStgsrqWP9Q"/>
+    <visualProperties xmi:id="_VcdK0Yd9Ee6SStgsrqWP9Q" position="629.0,151.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_VcdK0od9Ee6SStgsrqWP9Q" name="LegacyStyledElement">
+      <modelElement href="Tickets_FA232.uml#_UCDCUId9Ee6SStgsrqWP9Q"/>
+    </stereotypes>
+    <stereotypes xmi:id="_VcdK04d9Ee6SStgsrqWP9Q" name="Annotations">
+      <modelElement href="Tickets_FA232.uml#_UCH60Id9Ee6SStgsrqWP9Q"/>
+    </stereotypes>
+    <visibility xmi:id="_VcdK1Id9Ee6SStgsrqWP9Q" label="+"/>
+    <attributes xmi:id="_VcdK1Yd9Ee6SStgsrqWP9Q" name="conn">
+      <modelElement href="Tickets_FA232.uml#_UFGWUId9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_VcdK1od9Ee6SStgsrqWP9Q" label="~"/>
+      <cardinality xmi:id="_VcdK14d9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+      <type xmi:id="_VcdK2Id9Ee6SStgsrqWP9Q" name="Dao">
+        <modelElement href="Tickets_FA232.uml#_UBoyoId9Ee6SStgsrqWP9Q"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_VcdK2Yd9Ee6SStgsrqWP9Q" name="Login">
+      <modelElement href="Tickets_FA232.uml#_UCEQcId9Ee6SStgsrqWP9Q"/>
+      <keywords xmi:id="_VcdK2od9Ee6SStgsrqWP9Q" keyword="create"/>
+      <stereotypes xmi:id="_VcdK24d9Ee6SStgsrqWP9Q" name="StyledElement">
+        <modelElement href="Tickets_FA232.uml#_UCFekId9Ee6SStgsrqWP9Q"/>
+      </stereotypes>
+      <visibility xmi:id="_VcdK3Id9Ee6SStgsrqWP9Q" label="+"/>
+      <cardinality xmi:id="_VcdK3Yd9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VcdK3od9Ee6SStgsrqWP9Q">
+        <modelElement href="Tickets_FA232.uml#_UCE3gYd9Ee6SStgsrqWP9Q"/>
+        <type xmi:id="_VcdK34d9Ee6SStgsrqWP9Q" name="Login">
+          <modelElement href="Tickets_FA232.uml#_UCB0MId9Ee6SStgsrqWP9Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VcdK4Id9Ee6SStgsrqWP9Q" name="main" staticOperation="true">
+      <modelElement href="Tickets_FA232.uml#_UCFekYd9Ee6SStgsrqWP9Q"/>
+      <stereotypes xmi:id="_VcdK4Yd9Ee6SStgsrqWP9Q" name="StyledElement">
+        <modelElement href="Tickets_FA232.uml#_UCGFoId9Ee6SStgsrqWP9Q"/>
+      </stereotypes>
+      <visibility xmi:id="_VcdK4od9Ee6SStgsrqWP9Q" label="+"/>
+      <cardinality xmi:id="_VcdK44d9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_VcdK5Id9Ee6SStgsrqWP9Q" name="args">
+        <modelElement href="Tickets_FA232.uml#_UCFekod9Ee6SStgsrqWP9Q"/>
+        <cardinality xmi:id="_VcdK5Yd9Ee6SStgsrqWP9Q" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_VcdK5od9Ee6SStgsrqWP9Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Vd0cwId9Ee6SStgsrqWP9Q" name="Tickets" associationsOut="_Vc-vQId9Ee6SStgsrqWP9Q _Vdhh0Id9Ee6SStgsrqWP9Q _VdnBYId9Ee6SStgsrqWP9Q _VdwyYId9Ee6SStgsrqWP9Q _VdxZcId9Ee6SStgsrqWP9Q _VdyAgId9Ee6SStgsrqWP9Q _VdynkId9Ee6SStgsrqWP9Q _VdzOoId9Ee6SStgsrqWP9Q _VdzOqYd9Ee6SStgsrqWP9Q _VdzOsod9Ee6SStgsrqWP9Q _Vdz1sId9Ee6SStgsrqWP9Q _Vdz1uYd9Ee6SStgsrqWP9Q">
+    <modelElement href="Tickets_FA232.uml#_UCKXEId9Ee6SStgsrqWP9Q"/>
+    <visualProperties xmi:id="_Vd0cwYd9Ee6SStgsrqWP9Q" position="52.0,623.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_Vd0cwod9Ee6SStgsrqWP9Q" name="LegacyStyledElement">
+      <modelElement href="Tickets_FA232.uml#_UCK-IId9Ee6SStgsrqWP9Q"/>
+    </stereotypes>
+    <stereotypes xmi:id="_Vd0cw4d9Ee6SStgsrqWP9Q" name="Annotations">
+      <modelElement href="Tickets_FA232.uml#_UCP2oId9Ee6SStgsrqWP9Q"/>
+    </stereotypes>
+    <visibility xmi:id="_Vd0cxId9Ee6SStgsrqWP9Q" label="+"/>
+    <attributes xmi:id="_Vd0cxYd9Ee6SStgsrqWP9Q" defaultValue="new Dao()" name="dao">
+      <modelElement href="Tickets_FA232.uml#_UFG9YId9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_Vd0cxod9Ee6SStgsrqWP9Q" label="~"/>
+      <cardinality xmi:id="_Vd0cx4d9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+      <type xmi:id="_Vd0cyId9Ee6SStgsrqWP9Q" name="Dao">
+        <modelElement href="Tickets_FA232.uml#_UBoyoId9Ee6SStgsrqWP9Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Vd0cyYd9Ee6SStgsrqWP9Q" defaultValue="null" name="chkIfAdmin">
+      <modelElement href="Tickets_FA232.uml#_UFG9Yod9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_Vd0cyod9Ee6SStgsrqWP9Q" label="~"/>
+      <cardinality xmi:id="_Vd0cy4d9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+      <type xmi:id="_Vd0czId9Ee6SStgsrqWP9Q" name="Boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Vd0czYd9Ee6SStgsrqWP9Q" defaultValue="new JMenu(&quot;File&quot;)" name="mnuFile">
+      <modelElement href="Tickets_FA232.uml#_UFHkcYd9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_Vd0czod9Ee6SStgsrqWP9Q" label="-"/>
+      <cardinality xmi:id="_Vd0cz4d9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+      <type xmi:id="_Vd0c0Id9Ee6SStgsrqWP9Q" name="JMenu">
+        <modelElement href="Tickets_FA232.uml#_UEui4Yd9Ee6SStgsrqWP9Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Vd0c0Yd9Ee6SStgsrqWP9Q" defaultValue="new JMenu(&quot;Admin&quot;)" name="mnuAdmin">
+      <modelElement href="Tickets_FA232.uml#_UFILgId9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_Vd0c0od9Ee6SStgsrqWP9Q" label="-"/>
+      <cardinality xmi:id="_Vd0c04d9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+      <type xmi:id="_Vd0c1Id9Ee6SStgsrqWP9Q" name="JMenu">
+        <modelElement href="Tickets_FA232.uml#_UEui4Yd9Ee6SStgsrqWP9Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Vd0c1Yd9Ee6SStgsrqWP9Q" defaultValue="new JMenu(&quot;Tickets&quot;)" name="mnuTickets">
+      <modelElement href="Tickets_FA232.uml#_UFILgod9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_Vd0c1od9Ee6SStgsrqWP9Q" label="-"/>
+      <cardinality xmi:id="_Vd0c14d9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+      <type xmi:id="_Vd0c2Id9Ee6SStgsrqWP9Q" name="JMenu">
+        <modelElement href="Tickets_FA232.uml#_UEui4Yd9Ee6SStgsrqWP9Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Vd0c2Yd9Ee6SStgsrqWP9Q" name="mnuItemExit">
+      <modelElement href="Tickets_FA232.uml#_UFIykId9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_Vd0c2od9Ee6SStgsrqWP9Q" label="~"/>
+      <cardinality xmi:id="_Vd0c24d9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+      <type xmi:id="_Vd0c3Id9Ee6SStgsrqWP9Q" name="JMenuItem">
+        <modelElement href="Tickets_FA232.uml#_UEvJ8Yd9Ee6SStgsrqWP9Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Vd0c3Yd9Ee6SStgsrqWP9Q" name="mnuItemUpdate">
+      <modelElement href="Tickets_FA232.uml#_UFIykYd9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_Vd0c3od9Ee6SStgsrqWP9Q" label="~"/>
+      <cardinality xmi:id="_Vd0c34d9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+      <type xmi:id="_Vd0c4Id9Ee6SStgsrqWP9Q" name="JMenuItem">
+        <modelElement href="Tickets_FA232.uml#_UEvJ8Yd9Ee6SStgsrqWP9Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Vd0c4Yd9Ee6SStgsrqWP9Q" name="mnuItemDelete">
+      <modelElement href="Tickets_FA232.uml#_UFIykod9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_Vd0c4od9Ee6SStgsrqWP9Q" label="~"/>
+      <cardinality xmi:id="_Vd0c44d9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+      <type xmi:id="_Vd0c5Id9Ee6SStgsrqWP9Q" name="JMenuItem">
+        <modelElement href="Tickets_FA232.uml#_UEvJ8Yd9Ee6SStgsrqWP9Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Vd0c5Yd9Ee6SStgsrqWP9Q" name="mnuItemOpenTicket">
+      <modelElement href="Tickets_FA232.uml#_UFIyk4d9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_Vd0c5od9Ee6SStgsrqWP9Q" label="~"/>
+      <cardinality xmi:id="_Vd0c54d9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+      <type xmi:id="_Vd0c6Id9Ee6SStgsrqWP9Q" name="JMenuItem">
+        <modelElement href="Tickets_FA232.uml#_UEvJ8Yd9Ee6SStgsrqWP9Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Vd0c6Yd9Ee6SStgsrqWP9Q" name="mnuItemViewTicket">
+      <modelElement href="Tickets_FA232.uml#_UFJZoId9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_Vd0c6od9Ee6SStgsrqWP9Q" label="~"/>
+      <cardinality xmi:id="_Vd0c64d9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+      <type xmi:id="_Vd0c7Id9Ee6SStgsrqWP9Q" name="JMenuItem">
+        <modelElement href="Tickets_FA232.uml#_UEvJ8Yd9Ee6SStgsrqWP9Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Vd0c7Yd9Ee6SStgsrqWP9Q" name="mnuItemCloseTicket">
+      <modelElement href="Tickets_FA232.uml#_UFJZoYd9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_Vd0c7od9Ee6SStgsrqWP9Q" label="~"/>
+      <cardinality xmi:id="_Vd0c74d9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+      <type xmi:id="_Vd0c8Id9Ee6SStgsrqWP9Q" name="JMenuItem">
+        <modelElement href="Tickets_FA232.uml#_UEvJ8Yd9Ee6SStgsrqWP9Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Vd0c8Yd9Ee6SStgsrqWP9Q" name="mnuItemView2Ticket">
+      <modelElement href="Tickets_FA232.uml#_UFJZood9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_Vd0c8od9Ee6SStgsrqWP9Q" label="~"/>
+      <cardinality xmi:id="_Vd0c84d9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+      <type xmi:id="_Vd0c9Id9Ee6SStgsrqWP9Q" name="JMenuItem">
+        <modelElement href="Tickets_FA232.uml#_UEvJ8Yd9Ee6SStgsrqWP9Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_Vd0c9Yd9Ee6SStgsrqWP9Q" name="mnuItemView3Ticket">
+      <modelElement href="Tickets_FA232.uml#_UFKAsId9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_Vd0c9od9Ee6SStgsrqWP9Q" label="~"/>
+      <cardinality xmi:id="_Vd0c94d9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+      <type xmi:id="_Vd0c-Id9Ee6SStgsrqWP9Q" name="JMenuItem">
+        <modelElement href="Tickets_FA232.uml#_UEvJ8Yd9Ee6SStgsrqWP9Q"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_Vd0c-Yd9Ee6SStgsrqWP9Q" name="Tickets">
+      <modelElement href="Tickets_FA232.uml#_UCNaYId9Ee6SStgsrqWP9Q"/>
+      <keywords xmi:id="_Vd0c-od9Ee6SStgsrqWP9Q" keyword="create"/>
+      <stereotypes xmi:id="_Vd0c-4d9Ee6SStgsrqWP9Q" name="StyledElement">
+        <modelElement href="Tickets_FA232.uml#_UCOogId9Ee6SStgsrqWP9Q"/>
+      </stereotypes>
+      <visibility xmi:id="_Vd0c_Id9Ee6SStgsrqWP9Q" label="+"/>
+      <cardinality xmi:id="_Vd0c_Yd9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Vd0c_od9Ee6SStgsrqWP9Q">
+        <modelElement href="Tickets_FA232.uml#_UCOBc4d9Ee6SStgsrqWP9Q"/>
+        <type xmi:id="_Vd0c_4d9Ee6SStgsrqWP9Q" name="Tickets">
+          <modelElement href="Tickets_FA232.uml#_UCKXEId9Ee6SStgsrqWP9Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_Vd0dAId9Ee6SStgsrqWP9Q" name="isAdmin">
+        <modelElement href="Tickets_FA232.uml#_UCOBcId9Ee6SStgsrqWP9Q"/>
+        <cardinality xmi:id="_Vd0dAYd9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+        <type xmi:id="_Vd0dAod9Ee6SStgsrqWP9Q" name="Boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Vd0dA4d9Ee6SStgsrqWP9Q" name="createMenu">
+      <modelElement href="Tickets_FA232.uml#_UCOogYd9Ee6SStgsrqWP9Q"/>
+      <stereotypes xmi:id="_Vd0dBId9Ee6SStgsrqWP9Q" name="StyledElement">
+        <modelElement href="Tickets_FA232.uml#_UCOogod9Ee6SStgsrqWP9Q"/>
+      </stereotypes>
+      <visibility xmi:id="_Vd0dBYd9Ee6SStgsrqWP9Q" label="-"/>
+      <cardinality xmi:id="_Vd0dBod9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Vd0dB4d9Ee6SStgsrqWP9Q" name="prepareGUI">
+      <modelElement href="Tickets_FA232.uml#_UCOog4d9Ee6SStgsrqWP9Q"/>
+      <stereotypes xmi:id="_Vd0dCId9Ee6SStgsrqWP9Q" name="StyledElement">
+        <modelElement href="Tickets_FA232.uml#_UCPPkId9Ee6SStgsrqWP9Q"/>
+      </stereotypes>
+      <visibility xmi:id="_Vd0dCYd9Ee6SStgsrqWP9Q" label="-"/>
+      <cardinality xmi:id="_Vd0dCod9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Vd0dC4d9Ee6SStgsrqWP9Q" name="actionPerformed">
+      <modelElement href="Tickets_FA232.uml#_UFA2wId9Ee6SStgsrqWP9Q"/>
+      <stereotypes xmi:id="_Vd0dDId9Ee6SStgsrqWP9Q" name="Annotations">
+        <modelElement href="Tickets_FA232.uml#_UFBd0Id9Ee6SStgsrqWP9Q"/>
+      </stereotypes>
+      <visibility xmi:id="_Vd0dDYd9Ee6SStgsrqWP9Q" label="+"/>
+      <cardinality xmi:id="_Vd0dDod9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_Vd0dD4d9Ee6SStgsrqWP9Q" name="e">
+        <modelElement href="Tickets_FA232.uml#_UFA2wYd9Ee6SStgsrqWP9Q"/>
+        <cardinality xmi:id="_Vd0dEId9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+        <type xmi:id="_Vd0dEYd9Ee6SStgsrqWP9Q" name="ActionEvent">
+          <modelElement href="Tickets_FA232.uml#_UEpDUYd9Ee6SStgsrqWP9Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VeRvwId9Ee6SStgsrqWP9Q" name="ticketsJTable">
+    <modelElement href="Tickets_FA232.uml#_UCWkUId9Ee6SStgsrqWP9Q"/>
+    <visualProperties xmi:id="_VeRvwYd9Ee6SStgsrqWP9Q" position="911.0,31.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VeRvwod9Ee6SStgsrqWP9Q" label="+"/>
+    <operations xmi:id="_VeRvw4d9Ee6SStgsrqWP9Q" name="buildTableModel" staticOperation="true">
+      <modelElement href="Tickets_FA232.uml#_UFDTAId9Ee6SStgsrqWP9Q"/>
+      <visibility xmi:id="_VeRvxId9Ee6SStgsrqWP9Q" label="+"/>
+      <cardinality xmi:id="_VeRvxYd9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VeRvxod9Ee6SStgsrqWP9Q">
+        <modelElement href="Tickets_FA232.uml#_UFDTAod9Ee6SStgsrqWP9Q"/>
+        <type xmi:id="_VeRvx4d9Ee6SStgsrqWP9Q" name="DefaultTableModel">
+          <modelElement href="Tickets_FA232.uml#_UE0CcYd9Ee6SStgsrqWP9Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VeRvyId9Ee6SStgsrqWP9Q" name="rs">
+        <modelElement href="Tickets_FA232.uml#_UFDTAYd9Ee6SStgsrqWP9Q"/>
+        <cardinality xmi:id="_VeRvyYd9Ee6SStgsrqWP9Q" label="1" max="1" min="1"/>
+        <type xmi:id="_VeRvyod9Ee6SStgsrqWP9Q" name="ResultSet">
+          <modelElement href="Tickets_FA232.uml#_UEiVoYd9Ee6SStgsrqWP9Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
